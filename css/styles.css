@@ -37,7 +37,8 @@ img {
 *::after {
   box-sizing: border-box;
 }
-
+main{flex-grow: 1;}
+.page-container{min-height: 100vh;display: flex;flex-direction: column;}
 .container {
   width: 1280px;
   padding-left: 16px;
@@ -97,3 +98,85 @@ img {
   font-family: inherit;
   border: none;
 }
+
+/* footer */
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: #fefefe;
+  background-image: linear-gradient() url(../images/Fruit\ Futer.jpg);
+}
+
+.footer-one-div {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.footer-list-one {
+  display: flex;
+  gap: 28px;
+}
+.footer-item {
+}
+.footer-link-one {
+  display: block;
+  font-size: 14px;
+  color: #2c2c2c;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+
+.footer-three-div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav-two {
+  display: flex;
+}
+.footer-list-two {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-item-two {
+}
+.footer-item-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7eb101;
+}
+.footer-title-two {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+/* form */
+input::placeholder{font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+  }
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 279px;
+  height: 42px;
+  background: #fefefe
