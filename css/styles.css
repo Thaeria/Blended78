@@ -114,6 +114,64 @@ main {
   border: none;
 }
 
+.hero {
+  padding-top: 14px;
+  padding-bottom: 55px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hero-content {
+  padding-top: 145px;
+  padding-bottom: 164px;
+
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  margin-bottom: 28px;
+  max-width: 502px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-bottom: 40px;
+  max-width: 511px;
+}
+
+.hero-button {
+  border-radius: 30px;
+  padding: 6px 17px;
+  width: 98px;
+  height: 32px;
+  border: none;
+  background-color: #bbf330;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+  cursor: pointer;
+
+}
+
+.hero-img {
+  border: 26px solid #ffe550;
+  border-radius: 100%;
+  width: 580px;
+  height: 580px;
+}
+
 /* footer */
 .footer {
   padding-top: 100px;
